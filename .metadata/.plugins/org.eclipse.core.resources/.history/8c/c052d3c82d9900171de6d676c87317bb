@@ -1,0 +1,11 @@
+package arrayList;
+
+import java.util.ArrayList;
+public class ArraYListTest {
+	ArrayList<String> list = new ArrayList<String>();
+	// 向集合中添加元素
+	list.add("stu1");
+	list.add("stu2");
+
+	
+}

@@ -1,0 +1,28 @@
+package dao;
+
+import java.sql.Connection;
+import java.util.List;
+
+
+
+import jdbc_demos1.jdbcdemos;
+
+import model.goddess;
+public class GoddessDao {
+	public void addGoddess() {
+		Connection conn = jdbcdemos.getConnection();
+	}
+	
+	public void updateGoddess() {
+		
+	}
+	public void delGoddness() {
+		
+	}
+	public List<goddess> query(){
+		return null;
+	}
+	public goddess get() {
+		return null;
+	}
+}
